@@ -1,0 +1,39 @@
+programa
+{
+
+cadeia planeta 
+inteiro idade
+	funcao inicio()
+
+	{
+	
+	escreva("Com 977 milhoes de segundos eu tenho: " ,977000000 / 60 / 60 / 24 / 365 / 0.2408467 , " anos em mercurio", "\n")
+	escreva("Me diga sua idade terrestre", "\n")
+	leia(idade)
+	escreva("Me diga um planeta(em letras minusculas)", "\n")
+	leia(planeta)
+
+
+	se(planeta == "mercúrio"){
+	escreva("sua idade em mercúrio é " ,idade / 0.2408467	)}
+
+		se(planeta == "vênus"){
+	escreva("sua idade em vênus é " ,idade / 0.61519726	)}
+
+		se(planeta == "marte"){
+	escreva("sua idade em marte é " ,idade / 1.8808158	)}
+
+		se(planeta == "júpiter"){
+	escreva("sua idade em júpiter é " ,idade / 11.862615)}
+
+		se(planeta == "urano"){
+	escreva("sua idade em urano é " ,idade / 84.016846	)}
+
+		se(planeta == "netuno"){
+	escreva("sua idade em netuno é " ,idade / 164.79132 	)
+		}
+	
+
+	
+	}
+}
