@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva(" Há " ,365 * 24, " horas em um ano", "\n")
+		escreva("Há " ,365 *24 *10 *60 ," minutos em uma década", "\n")
+		escreva(" Quero comer 1000 chocolates", "\n")
+		escreva("Com 977 milhoes de segundos eu tenho: " ,977000000 / 60 / 60 / 24 / 365, "anos")
+		
+	}
+}
