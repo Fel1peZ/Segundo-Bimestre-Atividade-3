@@ -1,0 +1,12 @@
+programa
+{
+	
+	inteiro tauba
+	funcao inicio()
+
+	{
+		escreva("Tamanho da tauba em metros?","\n")
+		leia(tauba)
+		escreva(tauba * 100 / 45 ," pedaços ,",tauba * 100 % 45 ,"cm de sobra")
+	}
+}
