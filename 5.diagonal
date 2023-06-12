@@ -1,0 +1,10 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m 
+	
+	funcao inicio()
+	{
+		escreva(m.raiz(11.5 * 11.5 + 6.3 * 6.3, 2 ))
+	}
+}
