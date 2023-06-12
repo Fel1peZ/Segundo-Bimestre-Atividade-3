@@ -1,0 +1,9 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva( 100 / 6," minutos de estudo por materia ,", 100 % 6," minutos de sobra para descansar")
+		
+	}
+}
