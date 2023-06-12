@@ -3,8 +3,16 @@ programa
 	inclua biblioteca Matematica
  --> m 
 	
+real L1
+	real L2
 	funcao inicio()
 	{
-		escreva(m.raiz(11.5 * 11.5 + 6.3 * 6.3, 2 ))
-	}
+		escreva(m.raiz(11.5 * 11.5 + 6.3 * 6.3, 2 )," metros", "\n")
+		escreva(" Digite um lado do perimetro de sua casa","\n")
+leia(L1)	
+
+		escreva(" Digite o outro lado do perimetro de sua casa","\n")
+leia(L2)
+     escreva(m.raiz( L1 * L1 + L2 * L2, 2 ), " metros de fio")
+}
 }
