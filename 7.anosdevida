@@ -1,0 +1,18 @@
+programa
+{
+
+	
+	inteiro idade
+	funcao inicio()
+
+
+	{
+	escreva("Quantos anos voce tem","\n")
+	leia(idade) 
+
+	inteiro soma = idade * (idade+1) /2
+	escreva("Somando suas idades voce tem ", soma)
+		
+	}
+    
+     }
