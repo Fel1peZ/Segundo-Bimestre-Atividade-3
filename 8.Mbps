@@ -1,0 +1,17 @@
+programa
+{
+	
+real arquivo 
+	real velocidade_internet
+	funcao inicio()
+	{
+	escreva("Me diga o tamanho do download em MB \n")
+	leia(arquivo)
+	escreva("Me diga a velocidade da sua internet Mbps \n")
+	leia(velocidade_internet)	
+
+	velocidade_internet = velocidade_internet / 8
+
+	escreva( arquivo / velocidade_internet *60 ," minutos")
+	}
+}
