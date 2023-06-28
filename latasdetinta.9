@@ -1,0 +1,22 @@
+programa
+{
+	real metros_quadrados
+	inteiro litros
+	inteiro lata = 1
+	
+	funcao inicio()
+	{
+		escreva("Quantos metros quadrados voce quer? \n")
+		leia(metros_quadrados)
+          escreva(litros = metros_quadrados / 3 ," litros \n" )
+
+          
+          enquanto(litros > 18){
+          lata = lata + 1
+          litros = litros - 18
+          
+          }
+        escreva("Voce terá que comprar ", lata ," latas, e lhe custará " ,lata * 480, " reais")
+         }
+         
+	}
